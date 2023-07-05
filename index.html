@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>surajys.com</title>
+    <link rel="shortcut icon" class="sys" href="images/SYSS.png" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/9e04686069.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.16/typed.umd.js"></script>
+  </head>
+  <body>
+    <div id="header">
+      <div class="container">
+        <nav>
+          <img src="images/logo.png" class="logo" />
+          <ul id="sidemenu">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+          </ul>
+          <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+          <p>Hello, my name is</p>
+          <h1>
+            <span> <span class="s">S</span>uraj Y S</span>
+            <div class="text-3">
+              And I'm an
+              <span class="typing1"><span class="typing"></span></span>
+            </div>
+          </h1>
+        </div>
+      </div>
+    </div>
+
+    <!-- ---------------about-------------------------- -->
+
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img src="images/user.png" alt="" />
+          </div>
+          <div class="about-col-2">
+            <h1 class="sub-title">About Me</h1>
+            <p>
+              Seeking a challenging opportunity in an Organization to excel and
+              grow along with the organization by utilizing my knowledge and
+              acquired skills towards fulfillment of organizational vision.
+            </p>
+            <div class="tab-titles">
+              <p class="tab-links active-link" onclick="opentab('skills')">
+                Skills
+              </p>
+              <p class="tab-links" onclick="opentab('experience')">
+                Experience
+              </p>
+              <p class="tab-links" onclick="opentab('education')">Education</p>
+            </div>
+            <div class="tab-contents active-tab" id="skills">
+              <ul>
+                <li>
+                  <span>Architecture</span> <br />
+                  Conceptual building planning, design, 2D plans, construction
+                  and management.
+                </li>
+                <li>
+                  <span>Interior design</span> <br />
+                  Interior design,drawing and renders, execution services, mood
+                  boards, lighting design.
+                </li>
+                <li>
+                  <span>UI UX design</span> <br />
+                  Developing web and application user experience and interface.
+                </li>
+                <li>
+                  <span>3D Atrist and animator</span> <br />
+                  3D Visualisation, Renders, Walkthrough, 2D Renders,Editing,
+                  Animation etc.
+                </li>
+              </ul>
+            </div>
+
+            <div class="tab-contents" id="experience">
+              <ul>
+                <li>
+                  <span>2023 </span> <br />
+                  Freelance - Architectural Services
+                </li>
+                <li>
+                  <span>2022 </span> <br />
+                  Full-time Architectural Intern @PVL Design Studio
+                </li>
+                <li>
+                  <span>2021 </span> <br />
+                  Part-time Architectural Intern @PVL Design Studio
+                </li>
+                <li>
+                  <span>2019 </span> <br />
+                  Civil Engineering Expert @Chegg
+                </li>
+              </ul>
+            </div>
+
+            <div class="tab-contents" id="education">
+              <ul>
+                <li>
+                  <span>2018 - 2023 </span> <br />
+                  Bachelor of architecture, School of Planning and Architecture,
+                  Vijayawada, AP.
+                </li>
+                <li>
+                  <span>2018</span> <br />
+                  12th Science, Jawahar Navodaya Vidyalaya, Chikkamagalur,
+                  Karnataka.
+                </li>
+                <li>
+                  <span>2016</span> <br />
+                  10th Standard, Jawahar Navodaya Vidyalaya, Chikkamagalur,
+                  Karnataka.
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- 
+    -------------------services --------------------------- -->
+    <div id="services">
+      <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+          <div>
+            <i class="fa-solid fa-house-chimney"></i>
+            <h2>Architecture</h2>
+            <ul>
+              <li>Architectural Design</li>
+              <li>Construction Documentation</li>
+              <li>Site Analysis and Planning</li>
+              <li>Sustainable Design</li>
+              <li>Landscape Design</li>
+              <li>Project Management</li>
+              <li>Building Regulations and Codes</li>
+              <li>Attention to Detail</li>
+            </ul>
+            <a href="#">Learn more</a>
+          </div>
+          <div>
+            <i class="fa-solid fa-couch"></i>
+            <h2>Interior Design</h2>
+            <ul>
+              <li>Space Planning</li>
+              <li>Concept Development</li>
+              <li>Material and Colour Selection</li>
+              <li>Furniture and Fixture Selection</li>
+              <li>Lighting Design</li>
+              <li>Textile and Soft Furnishings</li>
+              <li>Custom Design Elements</li>
+              <li>Project Management</li>
+            </ul>
+            <a href="#">Learn more</a>
+          </div>
+          <div>
+            <i class="fa-solid fa-tablet-screen-button"></i>
+            <h2>UI/UX Design</h2>
+            <ul>
+              <li>User Interface (UI) Design</li>
+              <li>User Experience (UX) Design</li>
+              <li>User Persona</li>
+              <li>Information Architecture</li>
+              <li>Interaction Design</li>
+              <li>Wireframes</li>
+              <li>Collaborative Approach</li>
+              <li>Current Design Trends and Technologies</li>
+            </ul>
+            <a href="#">Learn more</a>
+          </div>
+        </div>
+        <a href="services.html" class="btn">See more</a>
+      </div>
+    </div>
+
+    <!-- --------------- portfolio ------------------- -->
+    <div id="portfolio">
+      <div class="container container1">
+        <h1 class="sub-title">My Work</h1>
+        <div class="icons icons1">
+          <a
+            href="https://issuu.com/surajys"
+            ,
+            target="_blank"
+            class="icon icon--issuu"
+          >
+            <img src="images/issuuuu.png" />
+          </a>
+          <a
+            href="https://www.behance.net/surajys111"
+            ,
+            target="_blank"
+            class="icon icon--behance"
+          >
+            <i class="ri-behance-line"></i>
+          </a>
+          <a
+            href="https://in.pinterest.com/suajys111/"
+            ,
+            target="_blank"
+            class="icon icon--pinterset"
+          >
+            <i class="ri-pinterest-line"></i>
+          </a>
+          <a
+            href="https://www.linkedin.com/in/surajys111/"
+            ,
+            target="_blank"
+            class="icon icon--linkedin"
+          >
+            <i class="ri-linkedin-line"></i>
+          </a>
+          <a
+            href="https://dribbble.com/surajys111"
+            ,
+            target="_blank"
+            class="icon icon--dribbble"
+          >
+            <i class="ri-dribbble-line"></i>
+          </a>
+          <a
+            href="https://instagram.com/surajjys?igshid=MzNlNGNkZWQ4Mg=="
+            ,
+            target="_blank"
+            class="icon icon--instagram"
+          >
+            <i class="ri-instagram-line"></i>
+          </a>
+          <a
+            href="https://www.facebook.com/suraj.ys.58/"
+            ,
+            target="_blank"
+            class="icon icon--facebook"
+          >
+            <i class="ri-facebook-line"></i>
+          </a>
+          <a
+            href="https://github.com/surajys111"
+            ,
+            target="_blank"
+            class="icon icon--github"
+          >
+            <i class="ri-github-line"></i>
+          </a>
+        </div>
+
+        <div class="work-list">
+          <div class="work">
+            <img src="images/work-1.png" />
+            <div class="layer">
+              <h3>Social Media App</h3>
+              <p>
+                The app connects you to the talented people around the world.
+                Download it from play store.
+              </p>
+              <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="images/work-2.png" />
+            <div class="layer">
+              <h3>Music App</h3>
+              <p>
+                The app connects you to the talented people around the world.
+                Download it from play store.
+              </p>
+              <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="images/work-3.png" />
+            <div class="layer">
+              <h3>Online Shopping App</h3>
+              <p>
+                The app connects you to the talented people around the world.
+                Download it from play store.
+              </p>
+              <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+            </div>
+          </div>
+        </div>
+        <a href="my-works.html" class="btn">See more</a>
+      </div>
+    </div>
+    <!-- ------------- Contact ------------------ -->
+    <div id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="contact-left">
+            <h1 class="sub-title">Contact Me</h1>
+            <p>
+              <i class="fa-solid fa-paper-plane"></i> surajsundresh111@gmail.com
+            </p>
+            <p><i class="fa-sharp fa-solid fa-square-phone"></i> 7259479377</p>
+            <div class="icons">
+              <a
+                href="https://www.linkedin.com/in/surajys111/"
+                ,
+                target="_blank"
+                class="icon icon--linkedin"
+              >
+                <i class="ri-linkedin-line"></i>
+              </a>
+              <a
+                href="https://instagram.com/surajjys?igshid=MzNlNGNkZWQ4Mg=="
+                ,
+                target="_blank"
+                class="icon icon--instagram"
+              >
+                <i class="ri-instagram-line"></i>
+              </a>
+              <a
+                href="https://www.facebook.com/suraj.ys.58/"
+                ,
+                target="_blank"
+                class="icon icon--facebook"
+              >
+                <i class="ri-facebook-line"></i>
+              </a>
+              <a
+                href="https://github.com/surajys111"
+                ,
+                target="_blank"
+                class="icon icon--github"
+              >
+                <i class="ri-github-line"></i>
+              </a>
+            </div>
+            <div class="download">
+              <a href="images/my-cv.pdf" download class="btn btn2"
+                >Download CV</a
+              >
+              <a href="images/my-portfolio.pdf" download class="btn btn2 btn3"
+                >Download Portfolio</a
+              >
+            </div>
+          </div>
+          <div class="contact-right">
+            <form name="submit-to-google-sheet">
+              <input type="text" name="Name" placeholder="Your Name" required />
+              <input
+                type="email"
+                name="Email"
+                placeholder="Your Email"
+                required
+              />
+              <textarea
+                name="Message"
+                rows="6"
+                placeholder="Your Message"
+              ></textarea>
+              <button type="submit" class="btn btn2">Submit</button>
+            </form>
+            <span id="msg"></span>
+          </div>
+        </div>
+      </div>
+      <div class="copyright">
+        <p>
+          Created By <span class="S">S</span>uraj. | © 2023 All rights reserved
+        </p>
+      </div>
+    </div>
+    <script>
+      var tablinks = document.getElementsByClassName("tab-links");
+      var tabcontents = document.getElementsByClassName("tab-contents");
+      function opentab(tabname) {
+        for (tablink of tablinks) {
+          tablink.classList.remove("active-link");
+        }
+        for (tabcontent of tabcontents) {
+          tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+      }
+      // typing text animation script
+      var typed = new Typed(".typing", {
+        strings: [
+          "Architect",
+          "Interior Designer",
+          "UI UX Designer",
+          "Product Designer",
+          "Animation/Graphics Artist",
+        ],
+        typeSpeed: 100,
+        backSpeed: 60,
+        loop: true,
+      });
+    </script>
+    <script>
+      var sidemenu = document.getElementById("sidemenu");
+      function openmenu() {
+        sidemenu.style.right = "0";
+      }
+      function closemenu() {
+        sidemenu.style.right = "-200px";
+      }
+    </script>
+
+    <script>
+      const scriptURL =
+        "https://script.google.com/macros/s/AKfycbwGryvM7wCAYFuYPRFUVicoLvlNS3F6mAeFfR0ZJkXK6UYBQ-U-GcWKMeM1sNluVIWqOg/exec ";
+      const form = document.forms["submit-to-google-sheet"];
+      const msg = document.getElementById("msg");
+
+      form.addEventListener("submit", (e) => {
+        e.preventDefault();
+        fetch(scriptURL, { method: "POST", body: new FormData(form) })
+          .then((response) => {
+            msg.innerHTML = "Message sent successfully";
+            setTimeout(function () {
+              msg.innerHTML = "";
+            }, 5000);
+            form.reset();
+          })
+          .catch((error) => console.error("Error!", error.message));
+      });
+    </script>
+  </body>
+</html>
